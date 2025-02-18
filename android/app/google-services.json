@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "826385888674",
+    "firebase_url": "https://manager-fe707.firebaseio.com",
+    "project_id": "manager-fe707",
+    "storage_bucket": "manager-fe707.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826385888674:android:f624f712b2d600c4e6eefb",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase_gstatic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826385888674-fnlksh2b98qkhbmd8g3r2ctekr0gvl1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGvvJBFUFrXm82lmKLz_2b1FxskpZHU-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826385888674-fnlksh2b98qkhbmd8g3r2ctekr0gvl1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
