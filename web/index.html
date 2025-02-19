@@ -32,7 +32,7 @@
   <title>flutter_firebase_gstatic</title>
   <link rel="manifest" href="manifest.json">
   <script>
-     window.flutterfire_ignore_scripts = ['analytics']; // <= Works only for firebase_analytics. How to exclude firebase_app (so that we can load it from somewhere else)?
+     window.flutterfire_ignore_scripts = ['analytics', 'core']; // <= Works only for firebase_analytics. How to exclude firebase_app (so that we can load it from somewhere else)?
   </script>
 </head>
 <body>
@@ -41,6 +41,8 @@
   {{flutter_build_config}}
   window.addEventListener('load', async function (ev) {
     window.firebase_analytics = await import("./assets/firebase-analytics.js");
+    window.firebase_core = await import("./assets/firebase-app.js");
+
     _flutter.loader.load({
       onEntrypointLoaded: async function(engineInitializer) {
 
